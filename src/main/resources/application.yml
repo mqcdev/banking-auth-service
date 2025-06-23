@@ -7,7 +7,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${EUREKA_SERVICE_URL:http://localhost:9093/eureka/}
+      defaultZone: ${EUREKA_SERVICE_URL:http://ms-discovery:9093/eureka/}
 
 
 logging:

@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * This client is used to perform various operations related to user management,
  * such as registration, token validation, login, token refresh, and logout.
  */
-@FeignClient(name = "user-service", url = "http://localhost:8080", path = "/api/auth")
+@FeignClient(name = "user-service", url = "http://ms-client:8080", path = "/api/auth")
 public interface UserServiceClient {
 
     /**
